@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="choosepizza.css">
+<title>Choose your pizza</title>
+</head>
+<body>
+
+    <div class="container mt-3">
+
+        <div class="input-container mx-auto text-center">
+            <i class="pizzalogo fa-solid fa-pizza-slice fa-2x mb-2 pt-3"></i>
+            <h2>Ammuina</h2>
+        </div>
+
+        <form action="" method="post" class="w-70 mx-auto text-center p-5">
+            <h3 class="letsorder mb-5">Let's order some pizzas</h3>
+
+            <label for="">The base of your pizza should be ...</label>
+            <input type="text" id="pizzahow" class="form-control my-3">
+            
+            <label for="">On the top of your pizza should be ...</label>
+            <input type="text" id="pizzatop" class="form-control my-3">
+            
+            <label for="">How many pizzas do you desire?</label>
+            <input type="text" id="pizzamuch" class="form-control my-3">
+
+            <button id="add" class="btn btn-primary">Confirm</button>
+        </form>
+    </div>
+
+    <div class="container mt-3">
+        <table class="table table-striped text-center w-70 mx-auto">
+            <tr>
+                <th>Pizza base</th>
+                <th>Pizza top</th>
+                <th>Amount</th>
+            </tr>
+          
+        </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js" integrity="sha512-kVlGhj2qFy+KBCFuvjBJTGUMxbdqJKs4yK2jh0e0VPhWUPiPC87bzm4THmaaIee3Oj7j6sDpTTgm2EPPiESqBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="choosepizza.js"></script>
+</body>
+</html>
